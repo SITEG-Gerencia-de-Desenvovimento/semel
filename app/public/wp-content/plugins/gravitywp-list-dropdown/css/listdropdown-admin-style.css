@@ -1,0 +1,28 @@
+.gwp_list_drop_down_settings .choice_with_value li input.field-choice-input-dropdown, #field_columns .gwp_list_drop_down_settings .choice_with_value li input.field-choice-input-dropdown{
+	width: 50%!important;
+	margin-bottom: 6px;
+	flex: 1;
+    min-width: 1px;
+}
+
+.field-choice-row-drop-down {
+	display: flex;
+}
+
+.field-choice-row-drop-down .field-choice-text[type="text"] {
+    border-radius: 3px;
+    margin: auto 0.3125rem;
+}
+
+.gwp_list_drop_down_settings .choice_with_value .gfield_choice_header_value {
+	padding-left: 100px!important;
+	margin-bottom: 0px;
+}
+
+.gwp_list_drop_down_settings .choice_with_value .gfield_choice_header_label {
+	padding-left: 5px;
+	margin-bottom: 0px;
+}
+.choices_setting_single input.field-choice-value {
+    display: none;
+}

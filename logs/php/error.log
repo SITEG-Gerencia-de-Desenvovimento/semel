@@ -1,0 +1,507 @@
+[02-Aug-2023 19:56:22 UTC] PHP Warning:  Undefined array key 1 in C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\translatepress-multilingual\includes\class-plugin-optin.php on line 88
+[02-Aug-2023 19:56:22 UTC] WordPress database error Table 'local.wp_trp_dictionary_pt_br_' doesn't exist for query SELECT COUNT(id) FROM wp_trp_dictionary_pt_br_ WHERE translated != '' made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, TRP_Plugin_Optin->process_optin_actions
+[03-Aug-2023 12:08:42 UTC] PHP Warning:  Undefined array key "registered_perks" in C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\gravityperks\admin\manage_perks.php on line 681
+[03-Aug-2023 12:08:42 UTC] PHP Warning:  Undefined array key "price_id" in C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\gravityperks\admin\manage_perks.php on line 701
+[03-Aug-2023 12:08:42 UTC] PHP Warning:  Undefined array key "price_id" in C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\gravityperks\admin\manage_perks.php on line 701
+[03-Aug-2023 12:42:34 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in C:\Users\higin\Local Sites\esporte\app\public\wp-includes\update.php on line 209
+[03-Aug-2023 12:42:34 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in C:\Users\higin\Local Sites\esporte\app\public\wp-includes\update.php on line 447
+[03-Aug-2023 12:42:34 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in C:\Users\higin\Local Sites\esporte\app\public\wp-includes\update.php on line 728
+[03-Aug-2023 16:16:21 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:21 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[03-Aug-2023 16:16:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[03-Aug-2023 16:16:30 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:30 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:30 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:30 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:31 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:31 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\update.php(16): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:31 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:31 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:33 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:33 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:37 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:37 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:37 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:37 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:40 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:40 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:41 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:41 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:46 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:46 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:46 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:16:46 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:48 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:48 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:48 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-cron.php(46): require_once('C:\\Users\\higin\\...')
+#13 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:48 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-cron.php(46): require_once('C:\\Users\\higin\\...')
+#13 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:48 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:48 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-cron.php(46): require_once('C:\\Users\\higin\\...')
+#13 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:54 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:54 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\index.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:55 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:17:55 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:24:32 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:24:32 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-cron.php(46): require_once('C:\\Users\\higin\\...')
+#13 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:24:40 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:24:40 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\index.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:24:40 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:24:40 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:35 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:35 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:47 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:47 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\higin\\...')
+#13 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:53 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:53 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:54 UTC] PHP Warning:  Undefined property: Elementor\Plugin::$experiments in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:28:54 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php:226
+Stack trace:
+#0 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(226): method_exists(NULL, 'is_feature_acti...')
+#1 C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php(14): hello_header_footer_experiment_active()
+#2 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): hello_elementor_settings_init('')
+#3 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\higin\Local Sites\esporte\app\public\wp-content\plugins\elementor\includes\plugin.php(524): do_action('elementor/init')
+#6 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\higin\Local Sites\esporte\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\higin\Local Sites\esporte\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\higin\Local Sites\esporte\app\public\wp-config.php(103): require_once('C:\\Users\\higin\\...')
+#11 C:\Users\higin\Local Sites\esporte\app\public\wp-load.php(50): require_once('C:\\Users\\higin\\...')
+#12 C:\Users\higin\Local Sites\esporte\app\public\wp-blog-header.php(13): require_once('C:\\Users\\higin\\...')
+#13 C:\Users\higin\Local Sites\esporte\app\public\index.php(17): require('C:\\Users\\higin\\...')
+#14 {main}
+  thrown in C:\Users\higin\Local Sites\esporte\app\public\wp-content\themes\hello-elementor\includes\elementor-functions.php on line 226
+[03-Aug-2023 16:32:12 UTC] PHP Warning:  Undefined array key "index_type" in C:\Users\higin\Local Sites\esporte\app\public\wp-admin\includes\upgrade.php on line 2873
+[03-Aug-2023 16:32:12 UTC] PHP Warning:  Undefined array key "index_name" in C:\Users\higin\Local Sites\esporte\app\public\wp-admin\includes\upgrade.php on line 2879
+[03-Aug-2023 16:32:12 UTC] PHP Warning:  Undefined array key "index_columns" in C:\Users\higin\Local Sites\esporte\app\public\wp-admin\includes\upgrade.php on line 2882
+[03-Aug-2023 16:32:12 UTC] PHP Warning:  Undefined array key "column_name" in C:\Users\higin\Local Sites\esporte\app\public\wp-admin\includes\upgrade.php on line 2913
+[03-Aug-2023 16:32:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(``)' at line 1 for query ALTER TABLE wp_e_submissions_values ADD  `` (``) made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->create_tables, dbDelta
+[03-Aug-2023 16:32:13 UTC] WordPress database error Duplicate key name 'main_meta_id_index' for query ALTER TABLE `wp_e_submissions`
+    		ADD INDEX `main_meta_id_index` (`main_meta_id`),
+    		ADD UNIQUE INDEX `hash_id_unique_index` (`hash_id`),
+    		ADD INDEX `hash_id_index` (`hash_id`),
+    		ADD INDEX `type_index` (`type`),
+    		ADD INDEX `post_id_index` (`post_id`),
+    		ADD INDEX `element_id_index` (`element_id`),
+    		ADD INDEX `campaign_id_index` (`campaign_id`),
+    		ADD INDEX `user_id_index` (`user_id`),
+    		ADD INDEX `user_ip_index` (`user_ip`),
+    		ADD INDEX `status_index` (`status`),
+    		ADD INDEX `is_read_index` (`is_read`),
+    		ADD INDEX `created_at_gmt_index` (`created_at_gmt`),
+    		ADD INDEX `updated_at_gmt_index` (`updated_at_gmt`),
+    		ADD INDEX `created_at_index` (`created_at`),
+    		ADD INDEX `updated_at_index` (`updated_at`)
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->add_indexes
+[03-Aug-2023 16:32:13 UTC] WordPress database error Duplicate key name 'submission_id_index' for query ALTER TABLE `wp_e_submissions_values`
+    		ADD INDEX `submission_id_index` (`submission_id`),
+    		ADD INDEX `key_index` (`key`)
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->add_indexes
+[03-Aug-2023 16:32:13 UTC] WordPress database error Duplicate key name 'submission_id_index' for query ALTER TABLE `wp_e_submissions_actions_log`
+    		ADD INDEX `submission_id_index` (`submission_id`),
+    		ADD INDEX `action_name_index` (`action_name`),
+    		ADD INDEX `status_index` (`status`),
+    		ADD INDEX `created_at_gmt_index` (`created_at_gmt`),
+    		ADD INDEX `updated_at_gmt_index` (`updated_at_gmt`),
+    		ADD INDEX `created_at_index` (`created_at`),
+    		ADD INDEX `updated_at_index` (`updated_at`)
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->add_indexes
+[03-Aug-2023 16:32:13 UTC] WordPress database error Duplicate column name 'referer_title' for query 
+			ALTER TABLE `wp_e_submissions`
+			ADD COLUMN `referer_title` varchar(300) null AFTER `referer`;
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Referer_Extra->run
+[03-Aug-2023 16:32:13 UTC] WordPress database error Duplicate key name 'referer_index' for query 
+			ALTER TABLE `wp_e_submissions`
+			ADD INDEX `referer_index` (`referer`(191)),
+			ADD INDEX `referer_title_index` (`referer_title`(191));
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Referer_Extra->run
+[03-Aug-2023 16:32:24 UTC] Erro de evento de reagendamento do cron para o gancho: elementor_1_elementor_pro_updater_cron, código de erro: invalid_schedule, mensagem de erro: Agendamento do evento não existe., dados: {"schedule":"elementor_1_elementor_pro_updater_cron_interval","args":[],"interval":300}
+[03-Aug-2023 18:23:02 UTC] Erro de evento não agendado do cron para o gancho: upgrader_scheduled_cleanup, código de erro: could_not_set, mensagem de erro: Não foi possível salvar a lista de evento do cron, dados: {"schedule":false,"args":[58]}

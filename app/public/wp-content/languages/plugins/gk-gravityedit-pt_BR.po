@@ -1,0 +1,147 @@
+# Translation of GravityKit - GravityEdit in Portuguese (Brazil)
+# This file is distributed under the same license as the GravityKit - GravityEdit package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-22 00:28:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: GravityKit - GravityEdit\n"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:95
+msgid "Required"
+msgstr "Obrigatório"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:102
+msgid "Section"
+msgstr "Seção"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:89
+msgid "Search"
+msgstr "Buscar"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:69
+msgid "Buy Now"
+msgstr "Comprar agora"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:29
+msgid "Name"
+msgstr "Nome"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:31
+msgid "Status"
+msgstr "Status"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:38
+msgid "Deactivate License"
+msgstr "Desativar licença"
+
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:42
+msgid "Activate License"
+msgstr "Ativar licença"
+
+#: vendor_prefixed/trustedlogin/client/src/Form.php:1090
+msgid "Ok"
+msgstr "Ok"
+
+#. translators: %1$s is the vendor title
+#: vendor_prefixed/trustedlogin/client/src/Form.php:1097
+#: vendor_prefixed/trustedlogin/client/src/Form.php:1274
+msgid "Copy"
+msgstr "Copiar"
+
+#: vendor_prefixed/trustedlogin/client/src/Form.php:1242
+msgid "Error"
+msgstr "Erro"
+
+#: vendor_prefixed/gravitykit/foundation/src/Licenses/ProductManager.php:831
+#: vendor_prefixed/gravitykit/foundation/src/Settings/Framework.php:354
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:52
+msgid "Settings"
+msgstr "Configurações"
+
+#: vendor_prefixed/gravitykit/foundation/src/Licenses/LicenseManager.php:276
+msgid "This license key has been revoked."
+msgstr "Esta chave de licença foi desativada."
+
+#: vendor_prefixed/gravitykit/foundation/src/Licenses/LicenseManager.php:269
+#: vendor_prefixed/gravitykit/foundation/src/Licenses/LicenseManager.php:270
+msgid "The license key is valid, but it has not been activated for this site."
+msgstr "A chave de licença é válida, mas não foi ativada para este site."
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:239
+msgid "Attach a screenshot or file"
+msgstr "Anexar uma imagem ou arquivo"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:243
+msgid "Your Name"
+msgstr "Seu nome"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:244
+msgid "Subject"
+msgstr "Assunto"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:245
+msgid "Email address"
+msgstr "Endereço  de E-mail"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:248
+msgid "Next"
+msgstr "Próxima"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:249
+msgid "Message sent!"
+msgstr "Mensagem enviada!"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:254
+msgid "Please enter a valid email address"
+msgstr "Por favor, digite um endereço de E-mail válido"
+
+#. translators: %1$s is the vendor title
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:202
+#: vendor_prefixed/trustedlogin/client/src/Form.php:1093
+msgid "Close"
+msgstr "Fechar"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:208
+msgid "Email"
+msgstr "Email"
+
+#: vendor_prefixed/gravitykit/foundation/src/Integrations/HelpScout.php:222
+msgid "Your search timed out. Please double-check your internet connection and try again."
+msgstr "Sua busca expirou. Por favor, verifique sua conexão com a internet e tente novamente."
+
+#: vendor_prefixed/gravitykit/foundation/src/Core.php:378
+msgid "Support Email"
+msgstr "Email de suporte"
+
+#: vendor_prefixed/gravitykit/foundation/src/Core.php:379
+msgid "In order to provide responses to your support requests, please provide your email address."
+msgstr "Para que possamos lhe responder, informe um endereço de email."
+
+#: vendor_prefixed/gravitykit/foundation/src/Core.php:396
+msgid "The Support Port provides quick access to how-to articles and tutorials. For administrators, it also makes it easy to contact support."
+msgstr "O ícone de suporte provém um acesso rápido aos artigos e tutoriais. Para os administradores tornar fácil contatar o suporte."
+
+#: vendor_prefixed/gravitykit/foundation/src/Core.php:430
+#: vendor_prefixed/gravitykit/foundation/src/Licenses/ProductManager.php:839
+msgid "Support"
+msgstr "Suporte"
+
+#: includes/class-gravityview-inline-edit-scripts.php:159
+msgid "Empty"
+msgstr "Vazio"
+
+#: class-gravityview-inline-edit.php:235
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:76
+#: vendor_prefixed/trustedlogin/client/src/Form.php:1094
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: class-gravityview-inline-edit.php:230
+#: vendor_prefixed/gravitykit/foundation/src/translations.js.php:70
+msgid "Update"
+msgstr "Alterar"
